@@ -1,0 +1,50 @@
+/* MENÚ VERTICAL */
+.menu-materias{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* BOTONES */
+.boton-materia{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    background: #00509e;
+    color: white;
+    text-decoration: none;
+
+    padding: 15px;
+    border-radius: 12px;
+
+    transition: 0.3s;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+.boton-materia:hover{
+    background: #003f7d;
+    transform: scale(1.03);
+}
+
+/* IMAGEN */
+.boton-materia img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+/* TEXTO */
+.boton-materia span{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* RESPONSIVE */
+@media(max-width: 900px){
+
+    .menu-materias{
+        width: 100%;
+    }
+}

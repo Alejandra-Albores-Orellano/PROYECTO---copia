@@ -1,0 +1,47 @@
+/* MENÚ LATERAL */
+
+.menu-lateral{
+    width: 260px;
+    background-color: #0b1f33;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* BOTONES */
+
+.boton-materia{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    transition: 0.3s;
+}
+
+.boton-materia:hover{
+    background-color: #4da6ff;
+    color: white;
+    transform: scale(1.03);
+}
+
+/* IMÁGENES */
+
+.boton-materia img{
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+/* TEXTO */
+
+.boton-materia span{
+    font-size: 18px;
+    font-weight: bold;
+}
