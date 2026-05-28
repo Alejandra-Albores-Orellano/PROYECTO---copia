@@ -45,3 +45,10 @@
     font-size: 18px;
     font-weight: bold;
 }
+
+.datos-profesor { /* O la clase que corresponda al fondo gris */
+    display: flex;
+    flex-direction: column; /* Coloca los elementos uno debajo del otro */
+    align-items: center;    /* Centra los elementos horizontalmente */
+    gap: 15px;              
+}
