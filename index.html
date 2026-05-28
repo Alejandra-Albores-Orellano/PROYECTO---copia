@@ -4,129 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INICIO</title>
-    <link rel="website icon" type="png" href="IMAGENES/logo del cobach 2.png">
-
-    <link rel="stylesheet" href="CSS/estilos.css">
-    <link rel="stylesheet" href="CSS/menu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
-    <marquee behavior="alternate" direction="left right" scrollamount="10" loop="infinite" bgcolor="celeste" height="15" width="950">BIENVENIDOS AL PLANTEL 33 POLIFORUM</marquee>
 
-    <!-- BANNER SUPERIOR -->
-    <header class="banner-superior">
-        <!--<h1>Portal de Materias</h1>-->
-        <section id="banner"><img src="IMAGENES/Banner1.png"></section>
+    <div id="particles-js"></div>
+
+    <header class="app-header">
+        <div class="logo-container left-logos">
+            <img src="IMAGENES/Banner1.png">
     </header>
 
-    <!-- CONTENEDOR PRINCIPAL -->
-    <div class="contenedor">
-
-        <!-- MENÚ VERTICAL -->
-        <aside class="menu-lateral">
-
-            <a href="index.html" class="boton-materia">
-                <!--<img src="imagenes/bd.png" alt="Base de Datos">-->
-                <span>Inicio</span>
+    <div class="app-container">
+        
+        <aside class="app-sidebar">
+            <nav class="app-nav">
+                <a href="index.html" class="nav-card active">
+                    <i class="fa-solid fa-house-user"></i>
+                    <span>Inicio</span>
+                </a>
+            <a href="#" class="nav-card">
+            <img src="IMAGENES/logo cultura digital.png"  class="nav-icon">
+            <span>Cultura Digital 1</span>
             </a>
 
-            <a href="CulturaD1.html" class="boton-materia">
-                <img src="IMAGENES/LogoCulturaDigital1sem.png" alt="CD1">
-                <span>Cultura Digital 1</span>
-            </a>
-
-            <a href="CulturaD2.html" class="boton-materia">
-                <img src="IMAGENES/LogoCulturaDigital2sem.png" alt="CD2">
+            <a href="#" class="nav-card">
+                <img src="IMAGENES/logo cultura digital (2).png" class="nav-icon">
                 <span>Cultura Digital 2</span>
             </a>
 
-            <a href="TallerCultura.html" class="boton-materia">
-                <img src="IMAGENES/LogoTallerCulturaDigital4sem.png" alt="TCD">
+            <a href="#" class="nav-card">
+                <img src="https://via.placeholder.com/45?text=Taller" alt="Icono Taller Digital" class="nav-icon">
                 <span>Taller de Cultura Digital</span>
             </a>
 
-            <a href="GestionArchivos.html" class="boton-materia">
-                <img src="IMAGENES/LogoGestionArchivosDeTextoHojaDeCalculo3sem.png" alt="GDA">
-                <span>Gestion de Archivos</span>
+            <a href="#" class="nav-card">
+                <img src="https://via.placeholder.com/45?text=Gestion" alt="Icono Gestión de Archivos" class="nav-icon">
+                <span>Gestión de Archivos</span>
             </a>
 
-            <a href="ComunVirtual.html" class="boton-materia">
-                <img src="IMAGENES/LogoComunidadesVirtualesMantenimientoYRedesDeComputo4sem.png" alt="CV">
+            <a href="#" class="nav-card">
+                <img src="https://via.placeholder.com/45?text=Comun" alt="Icono Comunidades Virtuales" class="nav-icon">
                 <span>Comunidades Virtuales</span>
             </a>
 
-            <a href="SistemInfo.html" class="boton-materia">
-                <img src="IMAGENES/LogoSistemasDeInformaticaProgramacion5sem.png" alt="SDI">
-                <span>Sistemas de Informacion</span>
+            <a href="#" class="nav-card">
+                <img src="https://via.placeholder.com/45?text=Sist" alt="Icono Sistemas de Información" class="nav-icon">
+                <span>Sistemas de Información</span>
             </a>
 
-            <a href="PagWeb.html" class="boton-materia">
-                <img src="IMAGENES/LogoPaginaWebDiseñoDigital6sem.png" alt="PW">
-                <span>Pagina Web</span>
+            <a href="#" class="nav-card">
+                <img src="https://via.placeholder.com/45?text=Web" alt="Icono Página Web" class="nav-icon">
+                <span>Página Web</span>
             </a>
 
-            <a href="Ingles1.html" class="boton-materia">
-                <img src="IMAGENES/LogoIngles34sem.png" alt="I1">
-                <span>Ingles III</span>
+            <a href="#" class="nav-card">
+                <img src="https://via.placeholder.com/45?text=Ing3" alt="Icono Inglés III" class="nav-icon">
+                <span>Inglés III</span>
             </a>
 
-            <a href="Ingles2.html" class="boton-materia">
-                <img src="IMAGENES/LogoIngles43sem.png" alt="I2">
-                <span>Ingles IV</span>
+            <a href="#" class="nav-card">
+                <img src="https://via.placeholder.com/45?text=Ing4" alt="Icono Inglés IV" class="nav-icon">
+                <span>Inglés IV</span>
             </a>
+        </nav>
+        </aside>
 
-    </aside>
+        <main class="app-main">
+            <div class="content-grid">
+                
+                <section class="info-card mission-card">
+                    <h2>
+                        <i class="fa-solid fa-flag-checkered"></i>
+                        MISIÓN
+                    </h2>
+                    <p>Formar estudiantes con una sólida cultura digital y pensamiento crítico, capaces de utilizar herramientas tecnológicas de manera ética, eficiente y creativa para resolver problemas cotidianos y desenvolverse en la sociedad actual.</p>
+                    <div class="animated-icon"><i class="fa-solid fa-gear"></i></div>
+                </section>
 
-        <!-- CONTENIDO -->
-        <main class="contenido">
+                <section class="info-card vision-card">
+                    <h2>
+                        <i class="fa-solid fa-eye"></i>
+                        VISIÓN
+                    </h2>
+                    <p>Desarrollar en los estudiantes las competencias comunicativas fundamentales (hablar, escuchar, leer y escribir) en inglés, mediante un enfoque práctico que les permita desenvolverse con confianza en diversos contextos y ampliar sus oportunidades académicas y personales.</p>
+                    <div class="animated-icon"><i class="fa-solid fa-globe-americas"></i></div>
+                </section>
 
-            <!-- MISIÓN -->
-            <section class="caja-info">
-                <h2>Misión</h2>
-                <p>
-                Formar estudiantes con una sólida cultura digital y pensamiento crítico, capaces de utilizar
-                herramientas tecnológicas de manera ética, eficiente y creativa para resolver problemas
-                cotidianos y desenvolverse en la sociedad actual.
-                </p>
-            </section>
+                <section class="professor-profile-card">
+                    <div class="profile-header">
+                        <div class="profile-photo-container">
+                            <img src="IMAGENES/FotoElvis.jpeg" alt="Foto del Profesor Elvis Macías Guzmán" class="professor-photo">
+                        </div>
+                        <div class="profile-titles">
+                            <h3>Datos del Profesor</h3>
+                            <h1 class="text-gradient">Elvis Macías Guzmán</h1>
+                        </div>
+                    </div>
+                    <div class="profile-details">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-user-gear"></i>
+                                <span>Ing. En Sistemas Computacionales</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                <span>Lic. En la enseñanza del idioma</span>
+                            </li>
+                        </ul>
+                        <div class="profile-status">
+                            <div class="pulse"></div> 
+                            <span>EN LÍNEA</span>
+                        </div>
+                    </div>
+                </section>
 
-            <!-- VISIÓN -->
-            <section class="caja-info">
-                <h2>Visión</h2>
-                <p>
-                Desarrollar en los estudiantes las competencias comunicativas fundamentales (hablar,
-                escuchar, leer y escribir) en inglés, mediante un enfoque práctico que les permita
-                desenvolverse con confianza en diversos contextos y ampliar sus oportunidades académicas
-                y personales."
-                </p>
-            </section>
-
-            <!-- DATOS DEL PROFESOR -->
-            <section class="profesor">
-
-                <img src="IMAGENES/FotoElvis.jpeg" alt="Foto del Profesor">
-
-                <div class="datos-profesor">
-                    <h2>Datos del Profesor</h2>
-
-                    
-                        <p><strong>Elvis Macias Guzman</strong></p>
-                        <p><strong>Ing. En Sistemas Computacionales</strong></p>
-                        <p><strong>Lic. En la enseñanza del idioma</strong></p>
-                    
- 
-                </div>
-
-            </section>
-
+            </div>
         </main>
-
     </div>
-
-    <!-- BANNER INFERIOR -->
-    <footer class="banner-inferior">
-        <!--<p>© 2026 Portal Académico del Profesor</p>-->
-        <section id="banner"><img src="IMAGENES/Banner2.png"></section>
-    </footer>
 
 </body>
 </html>
